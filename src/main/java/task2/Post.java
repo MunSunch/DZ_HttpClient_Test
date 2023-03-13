@@ -12,8 +12,8 @@ public class Post {
     private String date;
     private String explanation;
     private String hdurl;
-    private String media_type;
-    private String service_version;
+    private String mediaType;
+    private String serviceVersion;
     private String title;
     private String url;
 
@@ -21,8 +21,8 @@ public class Post {
                 @JsonProperty("date") String date,
                 @JsonProperty("explanation") String explanation,
                 @JsonProperty("hdurl") String hdurl,
-                @JsonProperty("media_type") String media_type,
-                @JsonProperty("service_version") String service_version,
+                @JsonProperty("mediaType") String media_type,
+                @JsonProperty("serviceVersion") String service_version,
                 @JsonProperty("title") String title,
                 @JsonProperty("url") String url)
     {
@@ -30,8 +30,8 @@ public class Post {
         this.date = date;
         this.explanation = explanation;
         this.hdurl = hdurl;
-        this.media_type = media_type;
-        this.service_version = service_version;
+        this.mediaType = media_type;
+        this.serviceVersion = service_version;
         this.title = title;
         this.url = url;
     }
